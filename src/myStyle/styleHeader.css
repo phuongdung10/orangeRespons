@@ -1,0 +1,151 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.icon_header {
+    position: relative;
+    display: grid;
+    background-color: #023047;
+    height: 40px;
+    box-sizing: content-box;
+}
+
+.icon1_header li {
+    position: relative;
+    display: inline-block;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #ffffff;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+
+.box_header {
+    box-sizing: content-box;
+    width: 80px;
+    height: 40px;
+    background-color: #00AFAA;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.box_header:hover {
+    cursor: pointer;
+}
+
+.box1_header {
+    box-sizing: content-box;
+    width: 150px;
+    height: 40px;
+    background-color: #00AFAA;
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+.box1_header:hover {
+    cursor: pointer;
+}
+
+.icon3_header {
+    position: relative;
+    display: grid;
+    background-color: #F77E2E;
+    height: 50px;
+}
+
+.icon4_header li {
+    display: inline-block;
+    position: relative;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-right: 20px;
+    margin-top: 13px;
+}
+
+.icon4_header:hover {
+    cursor: pointer;
+}
+
+.input-group-text:hover {
+    cursor: pointer;
+}
+
+.logo_header2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1BD741;
+
+}
+
+.icon_header2 i {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 13px;
+
+}
+
+.logo1_header2 {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+
+@media only screen and (max-width:768px) {
+    .hidden-header {
+        display: none;
+    }
+
+    .box_header {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: black;
+        font-weight: 20px;
+
+    }
+
+    .box1_header {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: black;
+        font-weight: 100px;
+        margin-left: 10px;
+
+
+    }
+
+    .bi-heart:hover {
+        cursor: pointer;
+
+    }
+
+    .bi-basket3:hover {
+        cursor: pointer;
+    }
+
+    .input-group {
+        padding-top: 10px;
+    }
+
+
+
+}

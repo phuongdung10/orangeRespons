@@ -1,0 +1,212 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.icon_cont {
+    position: relative;
+    margin-top: 100px;
+}
+
+.img_fluid:hover{
+    cursor: pointer;
+}
+
+.box_content {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #01AEAB;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.box1_content {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #01AEAB;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 150px;
+    padding-top: 7px;
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.hidden-img1 {
+    width: 100%;
+}
+
+.hidden-img {
+    width: 100%;
+}
+.d-relative:hover{
+    cursor: pointer;
+}
+.respon-foot{
+    width: 100%;
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) {
+    .hidden-content {
+        display: none;
+    }
+
+    .image {
+        width: 30%;
+    }
+    .hidden-img {
+        display: none;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation:landscape) {
+
+    .hidden-content {
+        display: none;
+    }
+
+    .overlay {
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+    .overlay {
+        margin-left: 50px;
+    }
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+
+}
+
+.container1:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 210px;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+
+}
+
+.container1:hover .overlay {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation:landscape) {
+    .hidden2-content {
+        display: none;
+    }
+
+    .overlay {
+        left: 7%;
+      
+    }
+
+    .box_content {
+        width: 120px;
+    }
+
+    .box1_content {
+        margin-left: 130px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+    .hidden-img {
+        width: 25%;
+
+    }
+
+    .hidden-img1 {
+        width: 50%;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:portrait) {
+    .overlay {
+        margin-left: 600px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:landscape) {
+    .overlay {
+        margin-left: 80px;
+    }
+
+    .hidden-img1 {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .hidden-img {
+        width: 25%;
+    }
+
+}
+
+@media only screen and (min-width: 464px) and (max-width: 1024px) and (orientation:landscape) {
+    .overlay {
+        margin-left: 50px;
+    }
+}
+
+
+
+@media only screen and (min-width: 834px) and (max-width: 1112px) and (orientation:landscape) {
+    .overlay {
+        margin-left: 40px;
+    }
+
+    .hidden-img1 {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .hidden-img {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1112px) and (orientation:portrait) {
+    .hidden-img {
+        display: none;
+    }
+}
+@media only screen and (max-width:768px) {
+    .respon-foot{
+        display: none;
+    }
+    .hidden-img{
+        display: none;
+    }
+}
+@media only screen and (min-width:834px) {
+    .respon1-foot{
+        display: none;
+    }
+}
